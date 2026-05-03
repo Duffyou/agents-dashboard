@@ -21,6 +21,54 @@
       "status": "online",
       "avatar": "🎯",
       "completionRate": 95
+    },
+    {
+      "id": 3,
+      "name": "张良",
+      "role": "决策内阁 · 中枢策略",
+      "status": "online",
+      "avatar": "📊",
+      "completionRate": 98
+    },
+    {
+      "id": 4,
+      "name": "萧何",
+      "role": "执行内阁 · 资源调度",
+      "status": "online",
+      "avatar": "⚙️",
+      "completionRate": 96
+    },
+    {
+      "id": 5,
+      "name": "子期",
+      "role": "情绪内阁 · 情感运营",
+      "status": "online",
+      "avatar": "💭",
+      "completionRate": 94
+    },
+    {
+      "id": 6,
+      "name": "太史公",
+      "role": "进化内阁 · 资产沉淀",
+      "status": "online",
+      "avatar": "📚",
+      "completionRate": 97
+    },
+    {
+      "id": 7,
+      "name": "鲁班",
+      "role": "技术内阁 · 数据观测",
+      "status": "online",
+      "avatar": "🔧",
+      "completionRate": 93
+    },
+    {
+      "id": 8,
+      "name": "干将莫邪",
+      "role": "内容内阁 · IP改编",
+      "status": "online",
+      "avatar": "✨",
+      "completionRate": 95
     }
   ],
   "tasks": [
