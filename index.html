@@ -939,8 +939,38 @@
         let agentsData = [];
         let tasksData = [];
         let analyticsData = null; // 存储analytics数据
-        let selectedAgentId = null; // null表示显示全部，否则显示指定agent的任务
+        let selectedAgentId = null; // null表示显示全部,否则显示指定agent的任务
         let charts = {};
+
+        // 处理头像上传
+        function handleAvatarUpload(agentId, input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const agent = agentsData.find(a => a.id === agentId);
+                if (agent) {
+                    agent.avatar = e.target.result; // 使用base64数据
+                    renderAgents(); // 重新渲染
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // 处理团队合照上传
+        let teamAvatarUrl = "https://dwz.cn/lLEIYyxC";
+        function handleTeamAvatarUpload(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                teamAvatarUrl = e.target.result;
+                renderAgents(); // 重新渲染
+            };
+            reader.readAsDataURL(file);
+        }
 
         async function init() {
             try {
@@ -998,7 +1028,9 @@
                 <div class="agent-card ${selectedAgentId === null ? 'selected' : ''}" onclick="selectAgent(null)">
                     <div class="agent-avatar-wrapper">
                         <div class="agent-avatar">
-                            <img src="https://dwz.cn/lLEIYyxC" alt="云策团队" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            <img src="${teamAvatarUrl}" alt="云策团队" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            <input type="file" id="upload-all" accept="image/*" style="display:none" onchange="handleTeamAvatarUpload(this)">
+                            <label for="upload-all" style="position: absolute; bottom: 0; right: 0; background: var(--neon-cyan); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 18px; color: var(--bg-primary); border: 2px solid var(--bg-primary);">📷</label>
                         </div>
                         <div class="status-indicator status-online"></div>
                     </div>
@@ -1019,6 +1051,8 @@
                     <div class="agent-avatar-wrapper">
                         <div class="agent-avatar">
                             ${avatarContent}
+                            <input type="file" id="upload-${agent.id}" accept="image/*" style="display:none" onchange="handleAvatarUpload(${agent.id}, this)">
+                            <label for="upload-${agent.id}" style="position: absolute; bottom: 0; right: 0; background: var(--neon-cyan); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 18px; color: var(--bg-primary); border: 2px solid var(--bg-primary);">📷</label>
                         </div>
                         <div class="status-indicator status-${agent.status}"></div>
                     </div>
