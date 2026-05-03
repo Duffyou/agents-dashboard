@@ -993,12 +993,12 @@
 
         function renderAgents() {
             const carousel = document.getElementById('agentsCarousel');
-            // 添加"全部"选项
+            // 添加"全部"选项 - 使用团队合照
             let allAgentHtml = `
                 <div class="agent-card ${selectedAgentId === null ? 'selected' : ''}" onclick="selectAgent(null)">
                     <div class="agent-avatar-wrapper">
                         <div class="agent-avatar">
-                            <span>全</span>
+                            <img src="https://dwz.cn/omQMxPlw" alt="云策团队" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                         </div>
                         <div class="status-indicator status-online"></div>
                     </div>
