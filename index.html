@@ -938,6 +938,7 @@
     <script>
         let agentsData = [];
         let tasksData = [];
+        let analyticsData = null; // 存储analytics数据
         let selectedAgentId = null; // null表示显示全部，否则显示指定agent的任务
         let charts = {};
 
@@ -947,6 +948,7 @@
                 const data = await response.json();
                 agentsData = data.agents || [];
                 tasksData = data.tasks || [];
+                analyticsData = data.analytics || null; // 保存analytics数据
                 updateStats(data.stats);
             } catch (error) {
                 tasksData = generateMockTasks();
@@ -1076,6 +1078,16 @@
         }
 
         function renderAnalytics() {
+            // 获取真实数据或使用默认值
+            const weeklyTrend = analyticsData?.weeklyTrend || [12, 19, 15, 18, 14, 12, 6];
+            const typeDistribution = analyticsData?.typeDistribution || {
+                '消息处理': 40,
+                '信息查询': 25,
+                '内容生成': 15,
+                '技能分享': 10,
+                '系统监控': 10
+            };
+
             // 趋势图
             const trendCtx = document.getElementById('trendChart').getContext('2d');
             charts.trend = new Chart(trendCtx, {
@@ -1084,7 +1096,7 @@
                     labels: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
                     datasets: [{
                         label: '任务数',
-                        data: [12, 19, 15, 18, 14, 12, 6],
+                        data: weeklyTrend,
                         borderColor: '#00ffff',
                         backgroundColor: 'rgba(0, 255, 255, 0.1)',
                         tension: 0.4,
@@ -1104,15 +1116,19 @@
 
             // 类型分布图 - 柱状图
             const typeCtx = document.getElementById('typeChart').getContext('2d');
+            const typeLabels = Object.keys(typeDistribution);
+            const typeValues = Object.values(typeDistribution);
+            const typeColors = ['#00ffff', '#b24bf3', '#00ff88', '#ffd700', '#ff0055'];
+
             charts.type = new Chart(typeCtx, {
                 type: 'bar',
                 data: {
-                    labels: ['消息处理', '信息查询', '内容生成', '技能分享', '系统监控'],
+                    labels: typeLabels,
                     datasets: [{
                         label: '任务数量',
-                        data: [40, 25, 15, 10, 10],
-                        backgroundColor: ['#00ffff', '#b24bf3', '#00ff88', '#ffd700', '#ff0055'],
-                        borderColor: ['#00ffff', '#b24bf3', '#00ff88', '#ffd700', '#ff0055'],
+                        data: typeValues,
+                        backgroundColor: typeColors.slice(0, typeLabels.length),
+                        borderColor: typeColors.slice(0, typeLabels.length),
                         borderWidth: 2
                     }]
                 },
