@@ -1007,18 +1007,26 @@
                 </div>
             `;
 
-            carousel.innerHTML = allAgentHtml + agentsData.map(agent => `
+            carousel.innerHTML = allAgentHtml + agentsData.map(agent => {
+                // 判断avatar是否为URL(以http开头)
+                const isImageUrl = agent.avatar && agent.avatar.startsWith('http');
+                const avatarContent = isImageUrl
+                    ? `<img src="${agent.avatar}" alt="${agent.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">`
+                    : `<span>${agent.avatar}</span>`;
+
+                return `
                 <div class="agent-card ${agent.id === selectedAgentId ? 'selected' : ''}" onclick="selectAgent(${agent.id})">
                     <div class="agent-avatar-wrapper">
                         <div class="agent-avatar">
-                            <span>${agent.avatar}</span>
+                            ${avatarContent}
                         </div>
                         <div class="status-indicator status-${agent.status}"></div>
                     </div>
                     <div class="agent-name">${agent.name}</div>
                     <div class="agent-role">${agent.role}</div>
                 </div>
-            `).join('');
+                `;
+            }).join('');
         }
 
         function selectAgent(agentId) {
