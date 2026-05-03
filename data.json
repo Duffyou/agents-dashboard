@@ -1176,31 +1176,24 @@
   "analytics": {
     "topInitiators": [
       {
-        "name": "gaozixing",
-        "count": 16
+        "name": "pengxinghui",
+        "count": 2
       },
       {
-        "name": "pengxinghui",
-        "count": 16
+        "name": "gaozixing",
+        "count": 1
       },
       {
         "name": "liyinyu_sh",
-        "count": 12
-      },
-      {
-        "name": "wangjinglan",
-        "count": 7
-      },
-      {
-        "name": "yansisi",
-        "count": 7
+        "count": 1
       }
     ],
     "typeDistribution": {
-      "消息处理": 76,
-      "技能分享": 1,
-      "信息查询": 18,
-      "任务执行": 1
+      "消息处理": 95,
+      "信息查询": 1,
+      "内容生成": 2,
+      "策略规划": 1,
+      "数据观测": 1
     },
     "statusDistribution": {
       "completed": 96

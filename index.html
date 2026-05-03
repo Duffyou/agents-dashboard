@@ -1010,9 +1010,8 @@
             carousel.innerHTML = allAgentHtml + agentsData.map(agent => `
                 <div class="agent-card ${agent.id === selectedAgentId ? 'selected' : ''}" onclick="selectAgent(${agent.id})">
                     <div class="agent-avatar-wrapper">
-                        <div class="agent-avatar" onclick="uploadAvatar(event, ${agent.id})">
+                        <div class="agent-avatar">
                             <span>${agent.avatar}</span>
-                            <input type="file" accept="image/*" id="upload-${agent.id}" onchange="handleAvatarUpload(event, ${agent.id})" style="display:none">
                         </div>
                         <div class="status-indicator status-${agent.status}"></div>
                     </div>
@@ -1057,24 +1056,6 @@
             }
 
             renderTasks();
-        }
-
-        function uploadAvatar(event, agentId) {
-            event.stopPropagation();
-            document.getElementById(`upload-${agentId}`).click();
-        }
-
-        function handleAvatarUpload(event, agentId) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const avatar = event.target.closest('.agent-avatar');
-                    avatar.innerHTML = `<img src="${e.target.result}">`;
-                    avatar.insertAdjacentHTML('beforeend', `<input type="file" accept="image/*" id="upload-${agentId}" onchange="handleAvatarUpload(event, ${agentId})" style="display:none">`);
-                };
-                reader.readAsDataURL(file);
-            }
         }
 
         function renderAnalytics() {
