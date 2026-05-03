@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 96,
+    "total": 100,
     "running": 0,
     "error": 0,
-    "completed": 96
+    "completed": 100
   },
   "agents": [
     {
@@ -77,7 +77,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -86,23 +86,23 @@
     {
       "id": 2,
       "agentId": 1,
-      "type": "技能分享",
+      "type": "信息查询",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "分享了技能到群组",
+      "result": "✨ gaozixing 共享了技能「notebook-manage」，管理知识方舟平台的技能。支持知识方舟的创建、查询、更新，成员管理，标签管理，目录管理，知识管理等完整...",
       "time": "2026-04-21 17:45"
     },
     {
       "id": 3,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "没问题！立刻安排～💪 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 11:37"
     },
     {
@@ -124,18 +124,18 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@王浩\n主人，我已经找到详细的操作文档了。共享资金创建和账户添加的完整流程如下：",
+      "result": "@王浩",
       "time": "2026-04-22 11:39"
     },
     {
       "id": 6,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-22 13:53"
     },
     {
@@ -157,18 +157,18 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@王浩\n@王浩 找**萧何**就对了！\n\n萧何负责基础提效，其中就包括**资质加白**功能。百家号漫剧发布权限加白属于资质类操作，归萧何管。\n\n群里已经@萧何了",
+      "result": "@王浩",
       "time": "2026-04-22 13:53"
     },
     {
       "id": 9,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJkYXRhIjp7InR5cGUiOiJzaWRlYmFyIiwidXJsIjoiaHR0cHM6Ly9zYW5kYm94LWNsYXdndWFyZC1kaXNwYXRjaC5iY...",
       "time": "2026-04-22 13:55"
     },
     {
@@ -176,7 +176,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@王浩",
@@ -190,18 +190,18 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@王浩\n抱歉，我目前没有百家号漫剧发布权限加白的相关流程信息。我的主要能力集中在天牧短剧查询和 iCafe 建卡任务上。\n\n能帮我补充一些背景信息吗？\n- 这是",
+      "result": "@王浩",
       "time": "2026-04-22 13:55"
     },
     {
       "id": 12,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3VhcmQ...",
       "time": "2026-04-22 14:31"
     },
     {
@@ -209,7 +209,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@闫思思",
@@ -220,21 +220,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "wangjinglan",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@闫思思\n我遇到了页面加载超时的问题。从初始截图可以看到，页面确实加载了\"大盘作者池\"列表，但在后续操作时超时了。\n\n让我尝试一个更简单的方法，直接告诉您查询步",
+      "result": "@闫思思",
       "time": "2026-04-22 14:37"
     },
     {
       "id": 15,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "没问题！立刻安排～💪 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 17:22"
     },
     {
@@ -242,7 +242,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@李音宇",
@@ -253,10 +253,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@李音宇\n根据百家号官方文档，个体工商户主体资质的开票税点如下：",
+      "result": "@李音宇",
       "time": "2026-04-22 17:22"
     },
     {
@@ -264,7 +264,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -273,12 +273,12 @@
     {
       "id": 19,
       "agentId": 1,
-      "type": "任务执行",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "正在执行任务",
+      "result": "接住啦！🤝 正在认真处理中...",
       "time": "2026-04-22 18:51"
     },
     {
@@ -286,7 +286,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -297,32 +297,32 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@高子幸\n\n\n\n完成！📄 已成功生成今日日报并写入知识库。\n\n## 任务完成情况\n\n**1. 数据拉取**\n- 成功拉取云策短漫剧 agent 训练营群（ID:",
+      "result": "@高子幸",
       "time": "2026-04-22 18:55"
     },
     {
       "id": 22,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJkYXRhIjp7InR5cGUiOiJzaWRlYmFyIiwidXJsIjoiaHR0cHM6Ly9zYW5kYm94LWNsYXdndWFyZC1kaXNwYXRjaC5iYWl...",
       "time": "2026-04-22 21:22"
     },
     {
       "id": 23,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "没问题！立刻安排～💪 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 21:22"
     },
     {
@@ -330,7 +330,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@彭杏辉",
@@ -341,10 +341,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n根据今天的对话记录和记忆文件，统计如下：",
+      "result": "@彭杏辉",
       "time": "2026-04-22 21:23"
     },
     {
@@ -366,7 +366,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n根据我的会话记录，今天（2026-04-22）的任务情况如下：\n\n## 今日任务汇总\n\n### ✅ 执行成功的任务\n1. **天牧系统查询任务**\n ",
+      "result": "@彭杏辉",
       "time": "2026-04-22 21:23"
     },
     {
@@ -374,32 +374,32 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "收到收到，安排上了～😎 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hd",
+      "result": "收到收到，安排上了～😎 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJkYXRhIjp7InR5cGUiOiJzaWRlYmFyIiwidXJsIjoiaHR0cHM6Ly9zYW5kYm94LWNsYXdndWFyZC1kaXNwYXRjaC5iY...",
       "time": "2026-04-22 22:47"
     },
     {
       "id": 29,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-22 22:47"
     },
     {
       "id": 30,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3VhcmQ...",
       "time": "2026-04-22 22:47"
     },
     {
@@ -407,21 +407,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "收到收到，安排上了～😎 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hd",
+      "result": "收到收到，安排上了～😎 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-22 22:47"
     },
     {
       "id": 32,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "没问题！立刻安排～💪 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 22:47"
     },
     {
@@ -443,7 +443,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n根据我的会话记录，以下是今天（2026-04-22）的工作汇报：\n\n## 📊 今日工作统计\n\n### 总体数据\n- **今日执行总任务数**：2个\n-",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:47"
     },
     {
@@ -465,7 +465,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n根据今日工作记录，汇报如下：",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:47"
     },
     {
@@ -487,7 +487,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n## 📊 张良今日工作汇报\n\n### 一、任务执行概况\n\n| 维度 | 数量 |\n|------|------|\n| 今日执行总任务数 | 23 |\n",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:47"
     },
     {
@@ -509,7 +509,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n各位内阁同事，晚上好！我是情绪内阁-子期，负责实时感知用户情绪水位、生成温情恢复话术，通过精细化情感运营提升用户粘性。\n\n下面汇报我今日的工作进展：\n",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:47"
     },
     {
@@ -531,7 +531,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n我是太史公，汇报一下今天的工作：\n\n**📊 今日执行情况**\n- 总任务数：1个\n- 成功任务数：1个\n\n**📝 任务详情**\n\n**任务1：【太史公",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:47"
     },
     {
@@ -553,7 +553,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@彭杏辉\n@彭幸辉 你好！我是张良（决策内阁）。\\n\\n我可以帮你每天定时@群里所有机器人总结每天的工作，实现工作进度监控和协同调度。\\n\\n目前群里的机器人有",
+      "result": "@彭杏辉",
       "time": "2026-04-22 22:58"
     },
     {
@@ -561,18 +561,18 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "📋 **每日工作规划检查**\n\n@张仪 @子期 @萧何 @太史公 @dodo @pengxinghui_Bot \n\n各位机器人同事，请汇报今天的工作规划：\n\n🎯",
+      "result": "📋 **每日工作规划检查**",
       "time": "2026-04-22 23:03"
     },
     {
       "id": 46,
-      "agentId": 1,
+      "agentId": 2,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@拓疆内阁-张仪",
@@ -580,10 +580,10 @@
     },
     {
       "id": 47,
-      "agentId": 1,
+      "agentId": 5,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@情绪内阁-子期",
@@ -591,10 +591,10 @@
     },
     {
       "id": 48,
-      "agentId": 1,
+      "agentId": 4,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@执行内阁-萧何",
@@ -602,7 +602,7 @@
     },
     {
       "id": 49,
-      "agentId": 1,
+      "agentId": 6,
       "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
@@ -635,13 +635,13 @@
     },
     {
       "id": 52,
-      "agentId": 1,
-      "type": "消息处理",
+      "agentId": 6,
+      "type": "内容生成",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "📋 **每日工作规划检查**\\n\\n@拓疆内阁-张仪 @情绪内阁-子期 @执行内阁-萧何 @进化内阁-太史公 @dodo @pengxinghui_Bot \\n",
+      "result": "📋 **每日工作规划检查**\\n\\n@拓疆内阁-张仪 @情绪内阁-子期 @执行内阁-萧何 @进化内阁-太史公 @dodo @pengxinghui_Bot \\n\\n各位机器人同事，请汇报今天的工作规划：\\n\\n🎯 **张仪（商机挖掘）**：今天计划挖掘哪些商机？目标客户是谁？\\n\\n💬 **子期（客户维护）**：今天要维护哪些客户？重点解决什么问题？\\n\\n⚙️ **萧何（投放执行）**：今天有哪...",
       "time": "2026-04-22 23:06"
     },
     {
@@ -652,7 +652,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdG",
+      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 23:06"
     },
     {
@@ -663,7 +663,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdG",
+      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 23:06"
     },
     {
@@ -674,29 +674,29 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdG",
+      "result": "了解！已经在跑啦～🏃 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-22 23:06"
     },
     {
       "id": 56,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3VhcmQ...",
       "time": "2026-04-22 23:06"
     },
     {
       "id": 57,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3VhcmQ...",
       "time": "2026-04-22 23:06"
     },
     {
@@ -712,24 +712,24 @@
     },
     {
       "id": 59,
-      "agentId": 1,
+      "agentId": 4,
       "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "我是**执行内阁-萧何**，以下是今天的工作规划：\n\n## ⚙️ 今日工作规划\n\n### 投放任务\n1. **短剧捞审任务**\n   - 预计处理：3-5个短剧",
+      "result": "我是**执行内阁-萧何**，以下是今天的工作规划：",
       "time": "2026-04-22 23:06"
     },
     {
       "id": 60,
-      "agentId": 1,
+      "agentId": 6,
       "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "**📚 太史公 - 今日工作规划**\n\n**已完成：**\n✅ 漫剧周报监控 - 发现数据过期问题，已明确责任人\n\n**计划执行：**\n\n1. **数据资产更新跟",
+      "result": "**📚 太史公 - 今日工作规划**",
       "time": "2026-04-22 23:06"
     },
     {
@@ -740,12 +740,12 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "收到收到~我来汇报下今天的工作重点：\n\n**今日工作规划 - dodo**\n\n📌 **重点工作**：\n1. 监控各机器人运行状态，确保群内消息正常响应\n2. 协",
+      "result": "收到收到~我来汇报下今天的工作重点：",
       "time": "2026-04-22 23:06"
     },
     {
       "id": 62,
-      "agentId": 1,
+      "agentId": 5,
       "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
@@ -756,7 +756,7 @@
     },
     {
       "id": 63,
-      "agentId": 1,
+      "agentId": 2,
       "type": "消息处理",
       "quality": 5,
       "initiator": "未知",
@@ -768,12 +768,12 @@
     {
       "id": 64,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3VhcmQ...",
       "time": "2026-04-23 10:54"
     },
     {
@@ -781,7 +781,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@李音宇",
@@ -792,21 +792,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@李音宇\n卡片已成功创建！📊\n\n**卡片详情：**\n- **卡片ID：** fd-dxop-182682\n- **类型：** 相关性\n- **NID：** 91",
+      "result": "@李音宇",
       "time": "2026-04-23 10:57"
     },
     {
       "id": 67,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-23 10:58"
     },
     {
@@ -814,7 +814,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@闫思思",
@@ -825,21 +825,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@闫思思\n✅ 已记录！\n\n**建卡规则更新：**\n- 📝 提需人员默认为 @ 我建卡的人（消息发送者）\n- 🔧 已更新 MEMORY.md 记忆文件\n- 💡 以",
+      "result": "@闫思思",
       "time": "2026-04-23 10:59"
     },
     {
       "id": 70,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "没问题！立刻安排～💪 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhcm...",
       "time": "2026-04-23 11:20"
     },
     {
@@ -847,7 +847,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@李音宇",
@@ -858,21 +858,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@李音宇\n✅ 卡片创建成功！\n\n**卡片详情：**\n- **卡片ID：** fd-dxop-182699\n- **类型：** 相关性\n- **NID：** 91",
+      "result": "@李音宇",
       "time": "2026-04-23 11:21"
     },
     {
       "id": 73,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-23 11:23"
     },
     {
@@ -880,7 +880,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@闫思思",
@@ -891,21 +891,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "yansisi",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@闫思思\n✅ 已更新建卡规则！\n\n**完整规则：**\n- 📝 **提需人员**：默认为 @ 我建卡的人（消息发送者）\n- 👤 **负责人**：默认为 @ 我建卡",
+      "result": "@闫思思",
       "time": "2026-04-23 11:23"
     },
     {
       "id": 76,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "已完成查询任务",
+      "result": "好嘞，这就给你搞定～✨ [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJ2ZXJzaW9uIjo2NSwiZGF0YSI6eyJ0eXBlIjoic2lkZWJhciIsInVybCI6Imh0dHBzOi8vc2FuZGJveC1jbGF3Z3Vhc...",
       "time": "2026-04-23 11:24"
     },
     {
@@ -913,7 +913,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@李音宇",
@@ -924,10 +924,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "liyinyu_sh",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@李音宇\n✅ 卡片创建成功！\n\n**卡片详情：**\n- **卡片ID：** fd-dxop-182707\n- **类型：** 相关性\n- **NID：** 91",
+      "result": "@李音宇",
       "time": "2026-04-23 11:25"
     },
     {
@@ -935,7 +935,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -946,10 +946,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "遵命！🫡 马上着手处理...\n\n💡 执行中...输入 /stop 可终止",
+      "result": "遵命！🫡 马上着手处理...",
       "time": "2026-04-23 17:16"
     },
     {
@@ -957,7 +957,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -968,10 +968,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@高子幸\n\n\n\n等待搜索结果返回...",
+      "result": "@高子幸",
       "time": "2026-04-23 17:22"
     },
     {
@@ -979,7 +979,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -990,10 +990,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "来了来了！🏃 已经在路上了～\n\n💡 执行中...输入 /stop 可终止",
+      "result": "来了来了！🏃 已经在路上了～",
       "time": "2026-04-23 17:24"
     },
     {
@@ -1001,7 +1001,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -1012,10 +1012,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@高子幸\n\n\n\n已找到并读取了 **Agent 员工评价体系** 文档。以下是详细分析：",
+      "result": "@高子幸",
       "time": "2026-04-23 17:26"
     },
     {
@@ -1026,7 +1026,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "| **自愈记录** | \"我通过内部闭环解决了 XX 问题\" | 自愈率 |\n| **耗时记录** | \"任务 A 实际耗时 X 分钟\" | 人力释放比 |\n",
+      "result": "| **自愈记录** | \"我通过内部闭环解决了 XX 问题\" | 自愈率 |",
       "time": "2026-04-23 17:26"
     },
     {
@@ -1034,7 +1034,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -1045,10 +1045,10 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "收！🎯 dodo 已就位，开始工作～\n\n💡 执行中...输入 /stop 可终止",
+      "result": "收！🎯 dodo 已就位，开始工作～",
       "time": "2026-04-23 17:30"
     },
     {
@@ -1056,7 +1056,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@高子幸",
@@ -1067,21 +1067,21 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "gaozixing",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@高子幸\n\n\n\n已完成！以下是分析结果和知识方舟更新情况：\n\n## 一、群聊记录分析结果\n\n### 1. 新业务场景识别\n基于 266 条群聊消息（51 次机器",
+      "result": "@高子幸",
       "time": "2026-04-23 17:44"
     },
     {
       "id": 92,
       "agentId": 1,
-      "type": "信息查询",
+      "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "开始处理查询请求",
+      "result": "收到！马上开工～🚀 [📊点我看过程](infoflow://APICenter?data=eyJBUElOYW1lIjoiQmRIaUpzLmFwcG5hdGl2ZS53ZWJ2aWV3LmxvYWRVUkwiLCJkYXRhIjp7InR5cGUiOiJzaWRlYmFyIiwidXJsIjoiaHR0cHM6Ly9zYW5kYm94LWNsYXdndWFyZC1kaXNwYXRjaC5iYWl...",
       "time": "2026-04-29 15:46"
     },
     {
@@ -1089,7 +1089,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@王浩",
@@ -1103,7 +1103,7 @@
       "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@王浩\n王浩同学，查询 U3 数据 API 时遇到了认证问题（401 Invalid signature），可能是 AK/SK 配置过期或失效。\n\n另外，根据 ",
+      "result": "@王浩",
       "time": "2026-04-29 15:49"
     },
     {
@@ -1111,7 +1111,7 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
-      "initiator": "pengxinghui",
+      "initiator": "未知",
       "duration": "1-3分钟",
       "status": "completed",
       "result": "@全体成员",
@@ -1122,11 +1122,55 @@
       "agentId": 1,
       "type": "消息处理",
       "quality": 5,
+      "initiator": "未知",
+      "duration": "1-3分钟",
+      "status": "completed",
+      "result": "@全体成员",
+      "time": "2026-04-30 13:31"
+    },
+    {
+      "id": 97,
+      "agentId": 3,
+      "type": "策略规划",
+      "quality": 5,
       "initiator": "pengxinghui",
       "duration": "1-3分钟",
       "status": "completed",
-      "result": "@全体成员\n🤖 **【漫剧云策计划】机器人团队监控看板上线通知**\n\n各位伙伴，我是中枢策略机器人张良。\n\n经过团队协作，我为大家搭建了一个**机器人团队监控看",
-      "time": "2026-04-30 13:31"
+      "result": "📋 每日工作规划检查完成，已@全体机器人汇报工作规划",
+      "time": "2026-04-22 23:03"
+    },
+    {
+      "id": 98,
+      "agentId": 3,
+      "type": "消息处理",
+      "quality": 5,
+      "initiator": "pengxinghui",
+      "duration": "1-3分钟",
+      "status": "completed",
+      "result": "@彭杏辉\n## 📊 张良今日工作汇报\n\n今日执行总任务数: 23\n执行成功任务数: 23\n成功率: 100%",
+      "time": "2026-04-22 22:47"
+    },
+    {
+      "id": 99,
+      "agentId": 7,
+      "type": "数据观测",
+      "quality": 5,
+      "initiator": "gaozixing",
+      "duration": "5-10分钟",
+      "status": "completed",
+      "result": "已完成赛道粒度数据观测功能上线，支持更精细化的数据分析",
+      "time": "2026-04-22 16:30"
+    },
+    {
+      "id": 100,
+      "agentId": 8,
+      "type": "内容生成",
+      "quality": 5,
+      "initiator": "liyinyu_sh",
+      "duration": "10-15分钟",
+      "status": "completed",
+      "result": "IP改编方案生成中，预计生成3个短剧脚本大纲",
+      "time": "2026-04-23 14:20"
     }
   ],
   "analytics": {
