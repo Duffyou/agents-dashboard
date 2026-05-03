@@ -663,6 +663,7 @@
             width: 100%;
             border-collapse: separate;
             border-spacing: 0 12px;
+            table-layout: fixed;
         }
 
         .tasks-table thead tr {
@@ -680,6 +681,24 @@
             border-bottom: 2px solid var(--neon-cyan);
         }
 
+        /* 列宽控制 */
+        .tasks-table th:nth-child(1),
+        .tasks-table td:nth-child(1) { width: 6%; }  /* 任务ID */
+        .tasks-table th:nth-child(2),
+        .tasks-table td:nth-child(2) { width: 10%; } /* 任务类型 */
+        .tasks-table th:nth-child(3),
+        .tasks-table td:nth-child(3) { width: 8%; }  /* 完成质量 */
+        .tasks-table th:nth-child(4),
+        .tasks-table td:nth-child(4) { width: 8%; }  /* 发起人 */
+        .tasks-table th:nth-child(5),
+        .tasks-table td:nth-child(5) { width: 9%; }  /* 执行时长 */
+        .tasks-table th:nth-child(6),
+        .tasks-table td:nth-child(6) { width: 11%; } /* 完成时间 */
+        .tasks-table th:nth-child(7),
+        .tasks-table td:nth-child(7) { width: 8%; }  /* 状态 */
+        .tasks-table th:nth-child(8),
+        .tasks-table td:nth-child(8) { width: 40%; } /* 执行成果 */
+
         .tasks-table tbody tr {
             background: rgba(21, 25, 50, 0.4);
             transition: all 0.3s;
@@ -695,6 +714,21 @@
             font-size: 14px;
             padding: 20px 16px;
             color: var(--text-primary);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            vertical-align: top;
+        }
+
+        /* 执行成果列特殊处理 */
+        .tasks-table td:nth-child(8) {
+            font-size: 13px;
+            line-height: 1.6;
+            max-height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
         }
 
         .task-id {
