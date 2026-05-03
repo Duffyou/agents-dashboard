@@ -902,16 +902,7 @@
     </div>
 
     <script>
-        const agentsData = [
-            { id: 1, name: 'dodo', role: '智能助手 · 全能型', status: 'online', avatar: 'D' },
-            { id: 2, name: '张良', role: '策略规划 · 中枢策略组', status: 'online', avatar: '张' },
-            { id: 3, name: '萧何', role: '资源调度 · 中枢策略组', status: 'busy', avatar: '萧' },
-            { id: 4, name: '干将', role: '内容创作 · 创作组', status: 'online', avatar: '干' },
-            { id: 5, name: '莫邪', role: '内容审核 · 创作组', status: 'online', avatar: '莫' },
-            { id: 6, name: '鲁班', role: '系统构建 · 技术运维组', status: 'error', avatar: '鲁' },
-            { id: 7, name: '子期', role: '系统监控 · 技术运维组', status: 'offline', avatar: '子' }
-        ];
-
+        let agentsData = [];
         let tasksData = [];
         let selectedAgentId = null; // null表示显示全部，否则显示指定agent的任务
         let charts = {};
@@ -920,6 +911,7 @@
             try {
                 const response = await fetch('data.json');
                 const data = await response.json();
+                agentsData = data.agents || [];
                 tasksData = data.tasks || [];
                 updateStats(data.stats);
             } catch (error) {

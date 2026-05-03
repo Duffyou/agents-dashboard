@@ -13,6 +13,14 @@
       "status": "online",
       "avatar": "🤖",
       "completionRate": 100
+    },
+    {
+      "id": 2,
+      "name": "张义",
+      "role": "拓疆内阁 · 战略规划",
+      "status": "online",
+      "avatar": "🎯",
+      "completionRate": 95
     }
   ],
   "tasks": [
