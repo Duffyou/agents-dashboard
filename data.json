@@ -11,7 +11,7 @@
       "name": "dodo机器人",
       "role": "群聊助手 · 全能型",
       "status": "online",
-      "avatar": "https://dwz.cn/dYMMRBZ8",
+      "avatar": "avatars/dodo.png",
       "completionRate": 100
     },
     {
@@ -35,7 +35,7 @@
       "name": "萧何",
       "role": "执行内阁 · 资源调度",
       "status": "online",
-      "avatar": "https://dwz.cn/9Wq5ZSHl",
+      "avatar": "avatars/xiaohe.png",
       "completionRate": 96
     },
     {
@@ -43,7 +43,7 @@
       "name": "子期",
       "role": "情绪内阁 · 情感运营",
       "status": "online",
-      "avatar": "https://dwz.cn/6O8mAVjf",
+      "avatar": "avatars/ziqi.png",
       "completionRate": 94
     },
     {
@@ -59,7 +59,7 @@
       "name": "鲁班",
       "role": "技术内阁 · 数据观测",
       "status": "online",
-      "avatar": "https://dwz.cn/Va6lI8YI",
+      "avatar": "avatars/luban.png",
       "completionRate": 93
     },
     {
